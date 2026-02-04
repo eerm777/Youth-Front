@@ -1,14 +1,46 @@
 import tkinter as tk
+from build_dictionary import builder
+from job import Job
+jobs_list = builder()
+master_list = []
+for job in jobs_list:
+    temp = Job(job["company"], job["title"], job["age_min"], job["interest"], job["location"], job["pay"], job["contact"])
+    master_list.append(temp)
 
-# simple front-end only version (no backend at all)
 
-def search():
-    # button does nothing on purpose
-    pass
+
+    
+for item in master_list:
+    print(item.company)
+
+
+
+user_interest = []
+
+
+def search(retail_var, food_var, tech_var, labor_var, service_var, warehouse_var):
+    global user_interest
+    if retail_var.get() == 1:
+        user_interest.append("retail")
+    if food_var.get() == 1:
+        user_interest.append("food")
+    if tech_var.get() == 1:
+        user_interest.append("tech")        
+    if labor_var.get() == 1:
+        user_interest.append("labor")       
+    if service_var.get() == 1:
+        user_interest.append("service")       
+    if warehouse_var.get() == 1:
+        user_interest.append("warehouse")
+
+     
+    print(user_interest)
+    
+
 
 root = tk.Tk()
 root.title("Youth Job Finder")
-root.geometry("420x520")
+root.geometry("420x560")
 
 # blue background
 root.configure(bg="#87a8ff")
@@ -23,30 +55,44 @@ title_label = tk.Label(
 title_label.pack(pady=10)
 
 # age input
-tk.Label(root, text="Age (15–21):", font=("Georgia", 12), bg="#87a8ff").pack()
+tk.Label(root, text="Age (15–17) (18-21):", font=("Georgia", 12), bg="#87a8ff").pack()
 age_entry = tk.Entry(root, font=("Georgia", 11))
 age_entry.pack(pady=5)
 
-# interest input
+# interest label
 tk.Label(
     root,
-    text="Interest (retail, food, tech, etc):",
+    text="Select Your Interests:",
     font=("Georgia", 12),
     bg="#87a8ff"
-).pack()
-interest_entry = tk.Entry(root, font=("Georgia", 11))
-interest_entry.pack(pady=5)
+).pack(pady=5)
 
-# search button (does nothing)
+# checkbox variables
+retail_var = tk.IntVar()
+food_var = tk.IntVar()
+tech_var = tk.IntVar()
+labor_var = tk.IntVar()
+service_var = tk.IntVar()
+warehouse_var = tk.IntVar()
+
+# checkboxes
+tk.Checkbutton(root, text="Retail", variable=retail_var, font=("Georgia", 11), bg="#87a8ff").pack()
+tk.Checkbutton(root, text="Food", variable=food_var, font=("Georgia", 11), bg="#87a8ff").pack()
+tk.Checkbutton(root, text="Tech", variable=tech_var, font=("Georgia", 11), bg="#87a8ff").pack()
+tk.Checkbutton(root, text="Labor", variable=labor_var, font=("Georgia", 11), bg="#87a8ff").pack()
+tk.Checkbutton(root, text="Service", variable=service_var, font=("Georgia", 11), bg="#87a8ff").pack()
+tk.Checkbutton(root, text="Warehouse", variable=warehouse_var, font=("Georgia", 11), bg="#87a8ff").pack()
+
+# search button
 tk.Button(
     root,
     text="Search Jobs",
-    command=search,
+    command=lambda: search(retail_var, food_var, tech_var, labor_var, service_var, warehouse_var),
     bg="#d0d0d0",
     font=("Georgia", 11)
 ).pack(pady=10)
 
-# results box (empty forever)
+# results box
 result_box = tk.Text(
     root,
     width=48,

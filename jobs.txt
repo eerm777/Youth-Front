@@ -1,0 +1,59 @@
+Walmart, Overnight Stocker, 16, retail, Roosevelt Blvd, $15/hr, https://careers.walmart.com
+Walmart, Front End Associate, 16, retail, Roosevelt Blvd, $14/hr, https://careers.walmart.com
+Target, Cashier, 16, retail, Bustleton Ave, $15/hr, https://jobs.target.com
+Target, Sales Floor Team Member, 16, retail, Bustleton Ave, $15/hr, https://jobs.target.com
+Ross, Retail Associate, 16, retail, Roosevelt Blvd, $14/hr, https://jobs.rossstores.com
+Marshalls, Store Associate, 16, retail, Roosevelt Blvd, $14/hr, https://jobs.tjx.com
+Burlington, Cashier Associate, 16, retail, Roosevelt Blvd, $14/hr, https://burlingtonstores.jobs
+Five Below, Sales Associate, 16, retail, Roosevelt Blvd, $13/hr, https://careers.fivebelow.com
+Dollar Tree, Store Associate, 16, retail, Bustleton Ave, $13/hr, https://www.dollartree.com/careers
+Dollar General, Sales Associate, 16, retail, Welsh Rd, $13/hr, https://careers.dollargeneral.com
+McDonalds, Crew Member, 15, food, Bustleton Ave, $12–$14/hr, https://careers.mcdonalds.com
+McDonalds, Drive-Thru Team Member, 16, food, Roosevelt Blvd, $13/hr, https://careers.mcdonalds.com
+Burger King, Team Member, 15, food, Roosevelt Blvd, $12–$13/hr, https://www.bk.com/careers
+Wendys, Crew Member, 16, food, Bustleton Ave, $13/hr, https://careers.wendys.com
+Chick-fil-A, Team Member, 16, food, Roosevelt Blvd, $14/hr, https://www.chick-fil-a.com/careers
+Chipotle, Crew Member, 16, food, Roosevelt Blvd, $14–$15/hr, https://jobs.chipotle.com
+Dunkin, Crew Member, 16, food, Bustleton Ave, $12–$13/hr, https://careers.dunkindonuts.com
+Starbucks, Barista, 16, food, Roosevelt Blvd, $15/hr + tips, https://www.starbucks.com/careers
+Dominos, Inside Team Member, 16, food, Bustleton Ave, $12–$13/hr, https://jobs.dominos.com
+Pizza Hut, Team Member, 16, food, Roosevelt Blvd, $12–$13/hr, https://jobs.pizzahut.com
+Best Buy, Sales Advisor, 18, tech, Roosevelt Blvd, $15–$17/hr, https://www.bestbuy-jobs.com
+Best Buy, Geek Squad Consultation Agent, 18, tech, Roosevelt Blvd, $17/hr, https://www.bestbuy-jobs.com
+Apple, Specialist, 18, tech, Center City - Walnut St, $18/hr, https://jobs.apple.com
+T-Mobile, Mobile Associate, 18, tech, Roosevelt Blvd, $15/hr + commission, https://careers.t-mobile.com
+AT&T, Retail Sales Consultant, 18, tech, Bustleton Ave, $16/hr + commission, https://www.att.jobs
+Verizon, Retail Specialist, 18, tech, Roosevelt Blvd, $17/hr, https://www.verizon.com/about/careers
+Staples, Tech Sales Associate, 18, tech, Roosevelt Blvd, $15/hr, https://careers.staples.com
+GameStop, Retail Sales Associate, 17, tech, Roosevelt Blvd, $13/hr, https://careers.gamestop.com
+Micro Center, Computer Sales Associate, 18, tech, St. Davids, $16/hr, https://www.microcenter.com/site/content/careers.aspx
+Geek Squad, Repair Assistant Entry Level, 18, tech, Philadelphia PA, $17/hr, https://www.bestbuy-jobs.com
+Home Depot, Lot Associate, 18, labor, Bustleton Ave, $16/hr, https://careers.homedepot.com
+Home Depot, Freight/Receiving, 18, labor, Roosevelt Blvd, $17/hr, https://careers.homedepot.com
+Lowes, Receiver/Stocker, 18, labor, Bensalem PA, $16/hr, https://careers.lowes.com
+Lowes, Customer Service Associate, 18, labor, Bensalem PA, $15/hr, https://careers.lowes.com
+Local Landscaping Co., Landscaping Helper, 16, labor, Northeast, $15/hr, https://example-landscaping.com/apply
+Local Moving Company, Mover Assistant, 18, labor, Philadelphia PA, $17/hr, https://example-moving.com/jobs
+Car Wash, Car Wash Attendant, 16, labor, Roosevelt Blvd, $13–$14/hr, https://example-carwash.com/apply
+Local Construction Helper, Construction Laborer Entry Level, 18, labor, Philadelphia PA, $18/hr, https://example-construction.com/jobs
+Pool Service Company, Pool Maintenance Helper, 16, labor, Northeast, $15/hr, https://example-pools.com/jobs
+Snow Removal Service, Snow Shoveler (Seasonal), 16, labor, Philadelphia PA, $18/hr, https://example-snow.com/apply
+Amazon, Warehouse Associate, 18, warehouse, Byberry Rd area, $18/hr, https://www.amazon.jobs
+Amazon, Sortation Center Associate, 18, warehouse, Philadelphia PA, $18–$19/hr, https://www.amazon.jobs
+UPS, Package Handler, 17, warehouse, Byberry Rd, $18/hr, https://www.jobs-ups.com
+UPS, Warehouse Loader, 18, warehouse, Philadelphia PA, $19/hr, https://www.jobs-ups.com
+FedEx Ground, Package Handler, 18, warehouse, Bensalem PA, $18/hr, https://careers.fedex.com
+FedEx Ground, Dock Worker, 18, warehouse, Bensalem PA, $19/hr, https://careers.fedex.com
+USPS Distribution Center, Mail Handler Assistant, 18, warehouse, Philadelphia PA, $19/hr, https://about.usps.com/careers
+Local Logistics Company, Warehouse Associate, 18, warehouse, Northeast, $17/hr, https://example-logistics.com/jobs
+Grocery Distribution Center, Order Picker, 18, warehouse, Philadelphia PA, $18/hr, https://example-grocerydc.com/apply
+Furniture Warehouse, Warehouse Helper, 18, warehouse, Philadelphia PA, $17/hr, https://example-furniture.com/jobs
+Wawa, Customer Service Associate, 16, service, Bustleton Ave, $14/hr, https://www.wawa.com/careers
+Wawa, Fuel Associate, 18, service, Roosevelt Blvd, $15/hr, https://www.wawa.com/careers
+CVS, Store Associate, 16, service, Bustleton Ave, $14/hr, https://jobs.cvshealth.com
+Walgreens, Customer Service Associate, 16, service, Roosevelt Blvd, $14/hr, https://jobs.walgreens.com
+Rite Aid, Store Associate, 16, service, Northeast, $13–$14/hr, https://careers.riteaid.com
+Planet Fitness, Front Desk Associate, 18, service, Roosevelt Blvd, $14/hr, https://www.planetfitness.com/careers
+Local Pet Store, Sales Associate, 16, service, Northeast, $13/hr, https://example-petstore.com/jobs
+Movie Theater, Usher/Concessions, 16, service, Bensalem PA, $12–$13/hr, https://example-theater.com/apply
+Local Nail Salon, Receptionist, 16, service, Northeast, $13/hr, https://example-nails.com/jobs
