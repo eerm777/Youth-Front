@@ -8,7 +8,12 @@ class Job:
         self.location = location
         self.pay = pay
         self.contact = contact
-job1 = Job("Target", "Cashier", 18, ["retail", "money"], "Phily", 15, "www.target.com")
-print(job1.company)
-print(job1.title)
-print(job1.age_min)
+
+
+
+    def __str__(self):
+        return f"Company: {self.company}, Tittle: {self.title}"
+#job1 = Job("Target", "Cashier", 18, ["retail", "money"], "Phily", 15, "www.target.com")
+#print(job1.company)
+#print(job1.title)
+#print(job1.age_min)

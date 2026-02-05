@@ -7,11 +7,10 @@ for job in jobs_list:
     temp = Job(job["company"], job["title"], job["age_min"], job["interest"], job["location"], job["pay"], job["contact"])
     master_list.append(temp)
 
-
+str_rec = ""
 
     
-for item in master_list:
-    print(item.company)
+
 
 
 
@@ -33,8 +32,17 @@ def search(retail_var, food_var, tech_var, labor_var, service_var, warehouse_var
     if warehouse_var.get() == 1:
         user_interest.append("warehouse")
 
-     
-    print(user_interest)
+    rec_jobs = []
+    for interest in user_interest:
+        for job in master_list:
+            if interest in job.interest:
+                rec_jobs.append(job)
+
+    for job in rec_jobs:
+        str_rec = str(job) + "\n"
+    global result_box
+    result_box.insert("1.0", str_rec)
+            
     
 
 
