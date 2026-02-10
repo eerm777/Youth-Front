@@ -19,6 +19,7 @@ user_interest = []
 
 def search(retail_var, food_var, tech_var, labor_var, service_var, warehouse_var):
     global user_interest
+    user_interest = []
     if retail_var.get() == 1:
         user_interest.append("retail")
     if food_var.get() == 1:
@@ -38,9 +39,12 @@ def search(retail_var, food_var, tech_var, labor_var, service_var, warehouse_var
             if interest in job.interest:
                 rec_jobs.append(job)
 
+    str_rec = ""
     for job in rec_jobs:
-        str_rec = str(job) + "\n"
+        str_rec += str(job) + "\n"
+
     global result_box
+    result_box.delete("1.0", "end")
     result_box.insert("1.0", str_rec)
             
     

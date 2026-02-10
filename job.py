@@ -12,7 +12,7 @@ class Job:
 
 
     def __str__(self):
-        return f"Company: {self.company}, Tittle: {self.title}"
+        return f"{self.company} - {self.title}\n Location: {self.location}\n Pay: {self.pay}\n Apply:{self.contact}\n--------------------------------" 
 #job1 = Job("Target", "Cashier", 18, ["retail", "money"], "Phily", 15, "www.target.com")
 #print(job1.company)
 #print(job1.title)

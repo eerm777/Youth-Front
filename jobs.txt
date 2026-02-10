@@ -1,3 +1,4 @@
+company, title, age_min, interest, location, pay, contact
 Walmart, Overnight Stocker, 16, retail, Roosevelt Blvd, $15/hr, https://careers.walmart.com
 Walmart, Front End Associate, 16, retail, Roosevelt Blvd, $14/hr, https://careers.walmart.com
 Target, Cashier, 16, retail, Bustleton Ave, $15/hr, https://jobs.target.com
@@ -31,7 +32,7 @@ Geek Squad, Repair Assistant Entry Level, 18, tech, Philadelphia PA, $17/hr, htt
 Home Depot, Lot Associate, 18, labor, Bustleton Ave, $16/hr, https://careers.homedepot.com
 Home Depot, Freight/Receiving, 18, labor, Roosevelt Blvd, $17/hr, https://careers.homedepot.com
 Lowes, Receiver/Stocker, 18, labor, Bensalem PA, $16/hr, https://careers.lowes.com
-Lowes, Customer Service Associate, 18, labor, Bensalem PA, $15/hr, https://careers.lowes.com
+Lowes, Customer Service Associate, 18, labor, Bensalem PA, $15/hr, https://careers.lowes.comss
 Local Landscaping Co., Landscaping Helper, 16, labor, Northeast, $15/hr, https://example-landscaping.com/apply
 Local Moving Company, Mover Assistant, 18, labor, Philadelphia PA, $17/hr, https://example-moving.com/jobs
 Car Wash, Car Wash Attendant, 16, labor, Roosevelt Blvd, $13–$14/hr, https://example-carwash.com/apply
