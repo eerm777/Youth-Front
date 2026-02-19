@@ -61,6 +61,7 @@ def search(retail_var, food_var, tech_var, labor_var, service_var, warehouse_var
 # --- GUI Setup ---
 root = tk.Tk()
 root.title("Youth Job Finder")
+root.state('zoomed')
 root.geometry("420x600")
 root.configure(bg="#a0a0a0")
 
