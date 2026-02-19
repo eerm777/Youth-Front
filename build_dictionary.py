@@ -13,7 +13,7 @@ def builder():
         job = {}
         job["company"] = items[0]
         job["title"] = items[1]
-        job["age_min"] = items[2]
+        job["age_min"] = int(items[2])
         job["interest"] = items[3]
         job["location"] = items[4]
         job["pay"] = items[5]
