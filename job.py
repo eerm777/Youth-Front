@@ -1,19 +1,22 @@
 class Job:
-    # The Constructor (__init__)
-    def __init__(self,company, title, age_min, interest, location, pay, contact):
-        self.company = company      # Attribute
-        self.title = title    # Attribute
-        self.age_min = age_min      # Attribute
-        self.interest = interest     # Default Attribute
+    """Simple class to store job information."""
+
+    def __init__(self, company, title, age_min, interest, location, pay, contact):
+        # Basic job attributes
+        self.company = company
+        self.title = title
+        self.age_min = age_min
+        self.interest = interest
         self.location = location
         self.pay = pay
         self.contact = contact
 
-
-
     def __str__(self):
-        return f"{self.company} - {self.title}\n Location: {self.location}\n Pay: {self.pay}\n Apply:{self.contact}\n--------------------------------" 
-#job1 = Job("Target", "Cashier", 18, ["retail", "money"], "Phily", 15, "www.target.com")
-#print(job1.company)
-#print(job1.title)
-#print(job1.age_min)
+        """Return a formatted string for displaying job info."""
+        return (
+            f"{self.company} - {self.title}\n"
+            f" Location: {self.location}\n"
+            f" Pay: {self.pay}\n"
+            f" Apply: {self.contact}\n"
+            f"--------------------------------"
+        )
